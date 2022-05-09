@@ -1,0 +1,62 @@
+.home{
+    flex: 4;
+    background: #E5E5E5;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
+
+.pay {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 36px;
+    color: #262626;
+    margin-left: 20px;
+}
+
+.topSearch {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  background-color:  #E5E5E5;
+}
+
+.searchIcon {
+  height: 12px !important;
+  width: 12px !important;
+}
+
+.homeSearch {
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.line {
+    width: 336.5px;
+    border: 0.5px solid #787878;
+}
+
+.list {
+    margin-left: 80px;
+}
+
+.select {
+    border: 1px solid #CED0DA;
+    border-radius: 2px;
+    height: 35px;
+    width: 150px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
